@@ -35,7 +35,7 @@
         </div>
         </div>
         <div class="header-mid">
-            <div class="header-mid-logo"><a href="#"><img src="/frontend/assets/img/shopee.png" alt=""></a></div>
+            <div class="header-mid-logo"><a href="#"><img src="../assets/img/Home/logo.png" alt=""></a></div>
             <div class="header-mid-search">
             <div class="header-mid-input"><input type="text" name="" id="" placeholder="Nhập"></div>
             <div class="header-mid-searchbutton"><button><i class='bx bx-search'></i></button></div>
