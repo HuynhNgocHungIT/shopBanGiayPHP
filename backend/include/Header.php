@@ -40,7 +40,7 @@
                     <li class="active">
                         <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Tổng quan </a>
                     </li>
-                    <li class="menu-title">    <a href="backend/admin.php"><i class="menu-icon fa fa-laptop"></i>Sản phẩm </a></li><!-- /.menu-title -->
+                    <li class="menu-title">    <a href=""><i class="menu-icon fa fa-laptop"></i>Sản phẩm </a></li><!-- /.menu-title -->
       
 
                     <li class="menu-title">    <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Danh mục</a></li>
