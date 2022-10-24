@@ -43,18 +43,15 @@
                     <li class="active">
                         <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Tổng quan </a>
                     </li>
-                    <li class="menu-title">    <a href=""><i class="menu-icon fa fa-laptop"></i>Sản phẩm </a></li><!-- /.menu-title -->
+                    <li class="menu-title">    <a href="index.php"><i class="menu-icon fa fa-laptop"></i>Sản phẩm </a></li><!-- /.menu-title -->
       
 
-                    <li class="menu-title">    <a href="index.html"><i class="menu-icon fa fa-laptop"></i>Danh mục</a></li>
+                    <li class="menu-title">    <a href="indexCategory.php"><i class="menu-icon fa fa-laptop"></i>Danh mục</a></li>
+                    <li class="menu-title">    <a href="indexCategory.php"><i class="menu-icon fa fa-laptop"></i>Giỏ hàng</a></li>
+                    <li class="menu-title">    <a href="indexCategory.php"><i class="menu-icon fa fa-laptop"></i>Cài đặt chung</a></li>
+                    <li class="menu-title">    <a href="accout.php"><i class="menu-icon fa fa-laptop"></i>Tài khoản</a></li>
 
-                    <li class="menu-title menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-tasks"></i>Cài đặt chung</a>
-                        <ul class="sub-menu children dropdown-menu">
-                            <li><i class="menu-icon fa fa-fort-awesome"></i><a href="font-fontawesome.html">Tài khoản</a></li>
-                            <li><i class="menu-icon ti-themify-logo"></i><a href="font-themify.html">Menu</a></li>
-                        </ul>
-                    </li>
+                   
                    
               
                     
@@ -73,8 +70,8 @@
         <header id="header" class="header">
             <div class="top-left">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="./"><img src="images/logo.png" width="80px" alt="Logo"></a>
-                    <a class="navbar-brand hidden" href="./"><img src="images/logo2.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./"><img src="../../frontend/assets/img/logo.png" width="80px" alt="Logo"></a>
+                    <a class="navbar-brand hidden" href="./"><img src="../../frontend/assets/img/logo.png" alt="Logo"></a>
                     <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
