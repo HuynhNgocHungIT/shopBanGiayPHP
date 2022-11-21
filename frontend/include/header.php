@@ -54,7 +54,7 @@
         </div>
         <div class="header-top-button-2">
             <ul>
-            <li><a href="../page/home.php"><i class='bx bx-home'> </i> Trang chủ</a></li>
+            <li><a href="../page/index.php"><i class='bx bx-home'> </i> Trang chủ</a></li>
             <li><a href="../page/blog.php"><i class='bx bx-question-mark' ></i> Tin tức</a></li>
             <li><a href="../page/contact.php"><i class='bx bxs-contact'></i></i> Liên hệ</a></li>
             <li><a href="../page/register.php">Đăng Ký</a></li>
@@ -65,7 +65,7 @@
         <div class="header-mid">
             <div class="header-mid-logo"><a href="#"><img src="../assets/img/logo.png" alt=""></a></div>
             <div class="header-mid-search">
-            <div class="header-mid-input"><input type="text" name="" id="" placeholder="Nhập"></div>
+            <form class="header-mid-input" method="post" action="/frontend/page/search.php"><input type="text" name="search" id="" placeholder="Nhập"></form>
             <div class="header-mid-searchbutton"><button><i class='bx bx-search'></i></button></div>
             </div>
             <div class="header-mid-cart"><a href="#"><i class='bx bx-cart'></i></a></div>
