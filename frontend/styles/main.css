@@ -106,3 +106,79 @@ html {
   #myBtn:hover {
     background-color: #555;
   }
+  .blog_detail {
+    margin-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .detail {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+  }
+    .detail_img img {
+        width: 500px;
+        height: 500px;
+    
+    }
+    
+    .detail_body span{
+       
+            font-size:20px ;
+            font-weight: 500;
+
+
+        
+
+    }
+
+.price_sale {
+    text-decoration: line-through;
+}
+.price {
+    color: red;
+}
+.detail_btn {
+    display: flex;
+    gap: 1rem;
+}
+.btn {
+    padding: 10px 20px;
+}
+.detail_cart {
+    border:1px solid #1435C3;
+
+
+
+}
+.detail_cart   button{
+
+    border: none;
+    color: #1435C3;
+    font-weight: 600;
+  
+}
+.detail_start {
+    background-color: #1435C3;
+    color: #fff;
+}
+.des {
+    width: 500px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    word-spacing: 4px;
+    margin-top: 0.5rem;
+}
+.product__item img {
+    width: 288px;
+}
+.product__flexs {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 0.5rem;
+ 
+}

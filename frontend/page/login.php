@@ -14,7 +14,7 @@
     <div class="header__register">
         <div class="header__regis">
             <a href="" class="header__regis-logo">
-            <img src="../assets/img/shopee-seeklogo.com.svg" alt="logo">
+            <img src="../assets/img/logo_login.png" alt="logo">
                 <span>Đăng ký</span>
             </a>
             <a href="" class="header__regis-help">
@@ -25,7 +25,7 @@
     </div>
     <div class="header__register-body">
         <div class="header__content">
-            <img src="../assets/img/shopee-seeklogo.com.svg" alt="">
+            <img src="../assets/img/logo_login.png" alt="">
             <span>Nền tản thương mại yêu thích Đông Nam Á</span>
         </div>
         <div class="header__register_form">

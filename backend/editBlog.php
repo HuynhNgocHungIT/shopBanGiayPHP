@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
         echo " co loi khi Upload  thanh cong";
        }
     if($result){
-       header("location:admin.php");
+        header("location:indexBlog.php");
     }
     else {
         var_dump($result);

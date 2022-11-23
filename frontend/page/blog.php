@@ -27,8 +27,9 @@ include 'db_connect.php';
                 $des = $row['Des'];
                 ?>
             <div class="blog__list">
-                <a href="/frontend/page/blog_detail?id=<?= $id ?>" class="blog__item">
-                    <img src="<?= $img ?>" alt="" class="blog__img">
+                <a href="./blog_detail.php?ID=<?php echo $row['ID']?>"class="blog__item">
+                    <img src="../../backend/images/blog/<?= $img ?>" alt="" class="blog__img">
+                
                     <span class="blog_title"><?= $title ?></span>
                     <p>
                     <?= $des ?>

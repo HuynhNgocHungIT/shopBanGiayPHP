@@ -16,7 +16,7 @@
                 $conn = mysqli_connect('localhost', 'root', '', 'bangiay') or die ('Không
                 thể kết nối tới database'.
                 mysqli_connect_error());
-                $showproduct='SELECT * FROM product';
+                $showproduct='SELECT * FROM category';
                 $result=mysqli_query($conn,$showproduct);
                 if(mysqli_num_rows($result)!=0){
                     while($row=mysqli_fetch_assoc($result)){
@@ -24,7 +24,7 @@
             ?>
             <li class="category__list-item " >
                 <a href="" class="category__link">
-                    <img class="category__img" src="../../backend/images/product/<?php echo $row['Image'] ?>" alt="">
+                    <img class="category__img" src="../../backend/images/category/<?php echo $row['Image'] ?>" alt="">
                     <span class="category__link-title"><?php echo $row['Title']?></span>
                 </a>
             </li>
@@ -100,7 +100,7 @@
                     while($row=mysqli_fetch_assoc($result)){
             ?>
            <div class="product__item">
-           <a href="" class="product__link">
+           <a href="./productDetail.php?ID=<?php echo $row['ID']?>" class="product__link">
                 <img class="product__img" src="../../backend/images/product/<?php echo $row['Image']?>" alt="">
                 <span class="product__title"><?php echo $row['Title'] ?></span>
             </a>
